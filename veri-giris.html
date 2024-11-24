@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Girişi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Veri Girişi</h1>
+    </header>
+
+    <form>
+        <label for="okul">Okul Adı:</label><br>
+        <input type="text" id="okul" name="okul"><br><br>
+
+        <label for="okul-numarasi">Okul Numarası:</label><br>
+        <input type="number" id="okul-numarasi" name="okul-numarasi"><br><br>
+
+        <label for="mail">E-posta:</label><br>
+        <input type="email" id="mail" name="mail"><br><br>
+
+        <label for="atık-turu">Atık Türü:</label><br>
+        <select id="atık-turu" name="atık-turu">
+            <option value="kağıt">Kağıt</option>
+            <option value="plastik">Plastik</option>
+            <option value="cam">Cam</option>
+            <option value="metal">Metal</option>
+            <option value="pil">Pil</option>
+        </select><br><br>
+
+        <label for="atık-miktarı">Atık Miktarı (kg):</label><br>
+        <input type="number" id="atık-miktarı" name="atık-miktarı"><br><br>
+
+        <input type="submit" value="Veri Gönder">
+    </form>
+
+    <footer>
+        <p>Torbalı Anadolu Lisesi Coğrafya TÜBİTAK Projesi</p>
+    </footer>
+</body>
+</html>
