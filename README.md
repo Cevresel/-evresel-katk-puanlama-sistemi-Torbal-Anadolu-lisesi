@@ -1,0 +1,1 @@
+# -evresel-katk-puanlama-sistemi-Torbal-Anadolu-lisesi
